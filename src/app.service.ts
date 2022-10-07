@@ -6,9 +6,9 @@ export class AppService {
     return 'Hello World!';
   }
   getBsms(): string {
-    return ('Responsabilidade Pessoal -> Mentalidade de Crescimento -> Orientação ao Futuro -> Persistência -> Comunicação -> Trabalho em Equipe -> Atenção aos Detalhes -> Proatividade -> Profissionalismo -> Precisão Técnica.')
+    return ('- Responsabilidade Pessoal</br>- Mentalidade de Crescimento</br>- Orientação ao Futuro</br>- Persistência</br>- Comunicação</br>- Trabalho em Equipe</br>- Atenção aos Detalhes</br>- Proatividade</br>- Profissionalismo</br>- Precisão Técnica.')
   }
   getObjetivos(): string {
-    return ('Aprender Nestjs -> Treinar Typescript -> Melhorar no MYSQL')
+    return ('- Aprender Nestjs</br>- Treinar Typescript</br>- Melhorar no MYSQL')
   }
 }
